@@ -49,7 +49,7 @@ const Projects = () => {
         "Utilizes high-quality images to effectively showcase the content and maintain visual appeal.",
       ],
       skills: ["HTML", "CSS", "JavaScript", "React.js", "Tailwind", "Context API"],
-      vercelLink: "https://food-app-brown-xi.vercel.app/",
+      vercelLink: "https://food-app-five-lac.vercel.app/",
     },
   ];
 
