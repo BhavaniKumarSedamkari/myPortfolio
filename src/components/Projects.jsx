@@ -2,20 +2,21 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 import { motion } from "framer-motion";
 import foodApp from "../assets/foodApp.png";
 import primeVideo from "../assets/primeVideo.png";
+import pgUncle from "../assets/pgUncle.png"
 
 const Projects = () => {
   const projectData = [
     {
-      image: foodApp,
-      title: "Food App",
+      image: pgUncle,
+      title: "PG Uncle",
       points: [
-        "This project is a clone of the 'Swiggy' website, developed using React and Tailwind CSS to ensure a modern and responsive design.",
-        "Developed search functionality with error handling to improve user experience.",
-        "Established Food Fire Server to efficiently fetch data from the Swiggy API, successfully resolving CORS issues.",
-        "Utilizes high-quality images to effectively showcase the content and maintain visual appeal.",
+        "Full-stack MERN application enabling PG owners to add, manage, and showcase their properties through an intuitive interface.",
+        "Real-time room management shows total beds and current vacant beds per room, simplifying occupancy tracking and allocation.",
+        "Secure authentication using JWT with MongoDB Atlas as the cloud-hosted database for reliable, online data storage.",
+        "Deployed on an AWS EC2 instance for reliable, scalable hosting and easy maintenance.",
       ],
-      skills: ["HTML", "CSS", "JavaScript", "React.js", "Tailwind", "Context API"],
-      vercelLink: "https://food-app-brown-xi.vercel.app/",
+      skills: ["React.js", "Node.js", "Express.js", "Mongo DB", "AWS", "Tailwind","React Router", "Redux Toolkit", "JWT", "Javascript", "HTML", "CSS", "Git Hub"],
+      vercelLink: "http://3.26.240.176/",
     },
     {
       image: primeVideo,
@@ -37,6 +38,18 @@ const Projects = () => {
         "Tailwind",
       ],
       vercelLink: "https://prime-video-self.vercel.app/",
+    },
+    {
+      image: foodApp,
+      title: "Food App",
+      points: [
+        "This project is a clone of the 'Swiggy' website, developed using React and Tailwind CSS to ensure a modern and responsive design.",
+        "Developed search functionality with error handling to improve user experience.",
+        "Established Food Fire Server to efficiently fetch data from the Swiggy API, successfully resolving CORS issues.",
+        "Utilizes high-quality images to effectively showcase the content and maintain visual appeal.",
+      ],
+      skills: ["HTML", "CSS", "JavaScript", "React.js", "Tailwind", "Context API"],
+      vercelLink: "https://food-app-brown-xi.vercel.app/",
     },
   ];
 
