@@ -26,14 +26,10 @@ const Hero = () => {
           Sedamkari Bhavani Kumar
         </h1>
         <h2 className="text-md md:text-lg w-fit self-center bg-gradient-to-r text-transparent from-pink-500 to-blue-500 bg-clip-text font-medium">
-          React.js Developer
+          Full Stack Developer
         </h2>
         <p className="text-sm md:text-lg px-2 md:px-0">
-          Skilled Frontend Developer and an active member of the Generative AI
-          team at Hexaware, proficient in front-end technologies, including
-          HTML, CSS, JavaScript, and React.js. I leverage Tailwind CSS and Ant
-          Design to rapidly create responsive components. Let's collaborate to
-          build something exceptional!
+          Skilled Full-Stack Developer (MERN) and an active member of the Generative AI team at Hexaware, proficient in front-end and back-end technologies including HTML, CSS, JavaScript, React.js, Node.js, Express, and MongoDB. I leverage Tailwind CSS and Ant Design to rapidly create responsive components and build scalable server-side APIs. Let's collaborate to build something exceptional!
         </p>
       </motion.div>
     </div>

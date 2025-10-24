@@ -2,15 +2,14 @@ import {motion} from 'framer-motion';
 
 const Experience = () => {
 
-  const experienceListData =["Spearheaded the development and launch of multiple projects using React.js, Tailwind CSS, and Ant Design, ensuring efficient and scalable web applications.",
-    "Implemented state management with React Context, and Redux to optimize data handling and application performance.",
-    "Integrated GraphQL and REST APIs for dynamic data fetching and real-time updates.",
-    "Enhanced web performance by focusing on Core Web Vitals, utilizing techniques like code splitting, lazy loading, and tree shaking to improve LCP, FID, and CLS.",
-    "Deployed applications on Vercel, gaining expertise in CI/CD processes and foundational DevOps skills with Docker.",
-    "Conducted and actively participated in code reviews to ensure adherence to best practices and standards.",
-    "Transformed complex design wireframes from Adobe and Figma into interactive web applications.",
-    "Utilized React Testing Library and Jest for testing to ensure robust testing and seamless user experiences, enhancing application reliability and performance.",
-    "Collaborated with backend developers and designers to ensure the frontend aligns with design specifications and effectively handles data from the backend."
+  const experienceListData =["Led development and launch of multiple full-stack MERN applications using React.js, Node.js, Express, and MongoDB, leveraging Tailwind CSS and Ant Design for rapid, responsive UI development and scalable architecture."
+,"Implemented client-side state management with React Context and Redux, and designed server-side data flows and caching strategies to optimize performance and consistency.",
+"Designed and implemented RESTful APIs with Express, enabling dynamic data fetching and real-time updates (WebSockets / Socket.io).",
+"Enhanced web performance and Core Web Vitals (LCP, FID, CLS) through code splitting, lazy loading, tree shaking, server-side rendering/SSR techniques, and asset optimization.",
+"Deployed frontend and backend services with CI/CD pipelines on Vercel and containerized backend services using Docker; gained foundational DevOps experience and deployed services to cloud environments.",
+"Wrote unit and integration tests for frontend and backend using React Testing Library, Jest, and Supertest to ensure robust, reliable applications.",
+"Conducted and actively participated in code reviews to enforce best practices, security standards, and maintainable architecture across the stack.",
+"Collaborated with product managers, designers, and backend engineers to align frontend and backend implementations, handle data modeling, authentication (JWT/OAuth), and ensure smooth end-to-end delivery."
 
   ]
 
@@ -51,7 +50,7 @@ const Experience = () => {
 
           <div className="flex flex-col text-center md:text-left">
             <h1 className="text-white text-xl md:text-2xl font-bold">
-              GenAI Frontend Developer
+              Full Stack Developer
             </h1>
             <h2 className="text-white text-lg font-bold">
               Hexaware Technologies Ltd, Chennai
